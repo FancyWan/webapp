@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en" style="background: #eee">
+<head>
+	<meta charset="UTF-8">
+	<title>Project Tracking</title>
+	<script src="js/flexible_css.debug.js"></script>
+    <script src="js/flexible.debug.js"></script>
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<div class="wrapper">
+	<header style="position: fixed;z-index: 11;width: 100%;">
+		<div class="form" style="margin-bottom: 0">
+			<div class="form_title1">
+				<span>Project Tracking</span>
+			</div>
+		</div>
+		<div class="selection">
+			<div class="selection_button">
+				<span class="selection_title" id="process">进度<i class="arrow"></i></span>
+				<span class="rightLine"></span>
+				<span class="selection_title" id="status">状态<i class="arrow"></i></span>
+				<span class="rightLine"></span>
+				<span class="selection_title" id="department">部门<i class="arrow"></i></span>
+				<span class="rightLine"></span>
+				<span class="selection_title" id="cost">初始费用<i class="arrow"></i></span>
+			</div>
+			<div class="selection_more">
+				<span class="more_empty"></span>
+				<span>•••</span>
+			</div>
+		</div>
+	</header>
+	<article style="position: absolute;top: 19%;width: 100%">
+		<div class="update_time">数据更新时间：2018.5.8</div>
+		<!-- 基本资料 -->
+		<div class="form">
+			<div class="form_title">
+				<span class="tabTitle">offtake优化升级</span>
+				<span class="tabTitle"></span>
+				<span >进行中:</span>
+				<span class="fontColor">3</span>
+				<i class="icon"></i>
+			</div>
+			<div class="form_body">
+				<div class="form_row">
+					<div class="left-conatiner">
+						<div class="form_row_title">OFFTAKE 3.0 增加名片二维码展示</div>
+						<div class="status">进行中</div>
+					</div>
+					<div class="right-conatiner">
+						<div id="chart1" style="width: 2.48rem;height: 2.026667rem;display: inline-block;margin-left: 2rem"></div>
+					</div>
+				</div>
+				<div class="bottomLine"></div>
+				<div class="form_row">
+					<div class="left-conatiner">
+						<div class="form_row_title">OFFTAKE 3.0 增加名片二维码展示</div>
+						<div class="status">进行中</div>
+					</div>
+					<div class="right-conatiner">
+						<div id="chart2" style="width: 2.48rem;height: 2.026667rem;display: inline-block;margin-left: 2rem"></div>
+					</div>
+				</div>
+				<div class="bottomLine"></div>
+				<div class="form_row">
+					<div class="left-conatiner">
+						<div class="form_row_title">OFFTAKE 3.0 增加名片二维码展示</div>
+						<div class="status">进行中</div>
+					</div>
+					<div class="right-conatiner">
+						<div id="chart3" style="width: 2.48rem;height: 2.026667rem;display: inline-block;margin-left: 2rem"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="form">
+			<div class="form_title">
+				<span class="tabTitle">offtake优化升级</span>
+				<span class="tabTitle"></span>
+				<span >进行中:</span>
+				<span class="fontColor">3</span>
+				<i class="icon"></i>
+			</div>
+			<div class="form_body">
+				<div class="form_row">
+					<div class="left-conatiner">
+						<div class="form_row_title">OFFTAKE 3.0 增加名片二维码展示</div>
+						<div class="status">进行中</div>
+					</div>
+					<div class="right-conatiner">
+						<div id="chart4" style="width: 2.48rem;height: 2.026667rem;display: inline-block;margin-left: 2rem"></div>
+					</div>
+				</div>
+				<div class="bottomLine"></div>
+				<div class="form_row">
+					<div class="left-conatiner">
+						<div class="form_row_title">OFFTAKE 3.0 增加名片二维码展示</div>
+						<div class="status">进行中</div>
+					</div>
+					<div class="right-conatiner">
+						<div id="chart5" style="width: 2.48rem;height: 2.026667rem;display: inline-block;margin-left: 2rem"></div>
+					</div>
+				</div>
+				<div class="bottomLine"></div>
+				<div class="form_row">
+					<div class="left-conatiner">
+						<div class="form_row_title">OFFTAKE 3.0 增加名片二维码展示</div>
+						<div class="status">进行中</div>
+					</div>
+					<div class="right-conatiner">
+						<div id="chart6" style="width: 2.48rem;height: 2.026667rem;display: inline-block;margin-left: 2rem"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="form">
+			<div class="form_title">
+				<span class="tabTitle">offtake优化升级</span>
+				<span class="tabTitle"></span>
+				<span >进行中:</span>
+				<span class="fontColor">3</span>
+				<i class="icon"></i>
+			</div>
+			<div class="form_body">
+				<div class="form_row">
+					<div class="left-conatiner">
+						<div class="form_row_title">OFFTAKE 3.0 增加名片二维码展示</div>
+						<div class="status">进行中</div>
+					</div>
+					<div class="right-conatiner">
+						<div id="chart7" style="width: 2.48rem;height: 2.026667rem;display: inline-block;margin-left: 2rem"></div>
+					</div>
+				</div>
+				<div class="bottomLine"></div>
+				<div class="form_row">
+					<div class="left-conatiner">
+						<div class="form_row_title">OFFTAKE 3.0 增加名片二维码展示</div>
+						<div class="status">进行中</div>
+					</div>
+					<div class="right-conatiner">
+						<div id="chart8" style="width: 2.48rem;height: 2.026667rem;display: inline-block;margin-left: 2rem"></div>
+					</div>
+				</div>
+				<div class="bottomLine"></div>
+				<div class="form_row">
+					<div class="left-conatiner">
+						<div class="form_row_title">OFFTAKE 3.0 增加名片二维码展示</div>
+						<div class="status">进行中</div>
+					</div>
+					<div class="right-conatiner">
+						<div id="chart9" style="width: 2.48rem;height: 2.026667rem;display: inline-block;margin-left: 2rem"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</article>
+	<div class="pop_bg hide">
+		<div class="pop_box">
+			<div class="process-hide hide">
+				<div class="tags">
+					<div class="tag active" id="process-all">全部</div>
+					<div class="empty"></div>
+					<div class="tag">20%-30%</div>
+					<div class="empty"></div>
+					<div class="tag">31%-40%</div>
+				</div>
+				<div class="tags1">
+					<div class="tag">41%-50%</div>
+					<div class="empty"></div>
+					<div class="tag">51%-60%</div>
+					<div class="empty"></div>
+					<div class="tag">61%-70%</div>
+				</div>
+				<div class="tags2">
+					<div class="tag">71%-80%</div>
+					<div class="empty"></div>
+					<div class="tag">81%-90%</div>
+					<div class="empty"></div>
+					<div class="tag">90%以上</div>
+				</div>
+				<div class="buttons">
+					<div class="process-reset-btn">重置</div>
+					<div class="empty"></div>
+					<div class="process-confirm-btn">确定</div>
+				</div>
+			</div>
+			<div class="status-hide hide">
+				<div class="tags">
+					<div class="tag active" id="status-all">全部</div>
+					<div class="empty"></div>
+					<div class="tag">已完成</div>
+					<div class="empty"></div>
+					<div class="tag">已取消</div>
+				</div>
+				<div class="tags1">
+					<div class="tag">进行中</div>
+					<div class="empty"></div>
+					<div class="tag">pending</div>
+					<div class="empty"></div>
+					<div style="flex: 5"></div>
+				</div>
+				<div class="buttons">
+					<div class="status-reset-btn">重置</div>
+					<div class="empty"></div>
+					<div class="status-confirm-btn">确定</div>
+				</div>
+			</div>
+			<div class="department-hide hide">
+				<div class="tags">
+					<div class="tag active" id="department-all">全部</div>
+					<div class="empty"></div>
+					<div class="tag">CD</div>
+					<div class="empty"></div>
+					<div class="tag">CRM</div>
+				</div>
+				<div class="tags1">
+					<div class="tag">MKT</div>
+					<div class="empty"></div>
+					<div class="tag">PEC</div>
+					<div class="empty"></div>
+					<div class="tag">电商</div>
+				</div>
+				<div class="buttons">
+					<div class="department-reset-btn">重置</div>
+					<div class="empty"></div>
+					<div class="department-confirm-btn">确定</div>
+				</div>
+			</div>
+			<div class="cost-hide hide">
+				<div class="tags">
+					<div class="tag active" id="cost-all">全部</div>
+					<div class="empty"></div>
+					<div class="tag">0-10k</div>
+					<div class="empty"></div>
+					<div class="tag">10-20k</div>
+				</div>
+				<div class="tags1">
+					<div class="tag">20-50k</div>
+					<div class="empty"></div>
+					<div class="tag">50-100k</div>
+					<div class="empty"></div>
+					<div class="tag">100-150k</div>
+				</div>
+				<div class="tags2">
+					<div class="tag">150k以上</div>
+					<div class="empty"></div>
+					<div style="flex:5"></div>
+					<div class="empty"></div>
+					<div style="flex:5"></div>
+				</div>
+				<div class="buttons">
+					<div class="cost-reset-btn">重置</div>
+					<div class="empty"></div>
+					<div class="cost-confirm-btn">确定</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+    <script src="js/echarts.min.js"></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+<script>
+	 // var chartElement = echarts.init(document.getElementById('chart'));
+        var chartElement1 = echarts.init(document.getElementById('chart1'));
+        var chartElement2 = echarts.init(document.getElementById('chart2'));
+        var chartElement3 = echarts.init(document.getElementById('chart3'));
+        var chartElement4 = echarts.init(document.getElementById('chart4'));
+        var chartElement5 = echarts.init(document.getElementById('chart5'));
+        var chartElement6 = echarts.init(document.getElementById('chart6'));
+        var chartElement7 = echarts.init(document.getElementById('chart7'));
+        var chartElement8 = echarts.init(document.getElementById('chart8'));
+        var chartElement9 = echarts.init(document.getElementById('chart9'));
+        var  option = {
+            tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b}: {c} ({d}%)"
+            },
+            series: [
+        {
+            name:'访问来源',
+            type:'pie',
+            radius: ['50%', '70%'],
+            avoidLabelOverlap: false,
+            color:['#509af2','#c5d8ef'],
+            label: {
+                normal: {
+                    show: true,
+                    position: 'center',
+                    formatter:"{d}%",
+                    textStyle: {
+                        color:'#999999',
+                        fontSize:'16'
+                    },
+                },
+              
+            },
+            labelLine: {
+                normal: {
+                    show: false
+                }
+            },
+           
+        
+            data:[
+                {value:100, 
+                label:{
+                        normal:{
+                            show:true
+                        }
+                    }
+                },
+                {value:100,}
+            ]
+        }
+        ]
+    };
+            // chartElement.setOption(option);
+            chartElement1.setOption(option);
+            chartElement2.setOption(option);
+            chartElement3.setOption(option);
+            chartElement4.setOption(option);
+            chartElement5.setOption(option);
+            chartElement6.setOption(option);
+            chartElement7.setOption(option);
+            chartElement8.setOption(option);
+            chartElement9.setOption(option);
+            window.addEventListener("resize",function(){
+                // chartElement.resize();
+                chartElement1.resize();
+                chartElement2.resize();
+                chartElement3.resize();
+                chartElement4.resize();
+                chartElement5.resize();
+                chartElement6.resize();
+                chartElement7.resize();
+                chartElement8.resize();
+                chartElement9.resize();
+            });
+            //Tab
+    $(".form_title").on("click",function(){
+		var $body =$(this).siblings(".form_body");
+		var $icon =$(this).find(".icon");
+		$body.addClass("animated");
+
+		if($body.hasClass("zoomOut")){
+			$body.removeClass("zoomOut").addClass("zoomIn");
+			$icon.removeClass("fold")
+		}else{
+			$body.removeClass("zoomIn").addClass("zoomOut");
+			$icon.addClass("fold")
+		}
+	})
+   		//标签
+	var $choose=$('.tags div');
+	var $choose1=$('.tags1 div');
+	var $choose2=$('.tags2 div');
+	$choose.on('click',function(){
+		$(this).siblings("div").removeClass("active");
+		$('.tags1 div').removeClass("active");
+		$('.tags2 div').removeClass("active");
+		$(this).addClass("active");
+	})
+	$choose1.on('click',function(){
+		$(this).siblings("div").removeClass("active");
+		$('.tags div').removeClass("active");
+		$('.tags2 div').removeClass("active");
+		$(this).addClass("active");
+	})
+	$choose2.on('click',function(){
+		$(this).siblings("div").removeClass("active");
+		$('.tags div').removeClass("active");
+		$('.tags1 div').removeClass("active");
+		$(this).addClass("active");
+	})
+	
+	//筛选
+	//process
+	$('#process').click(function (event) {
+		$('.pop_bg').removeClass("hide");
+		$('.process-hide').removeClass("hide");	
+		if(!$('.status-hide').hasClass("hide")){
+			$('.status-hide').addClass("hide");
+		}
+		if(!$('.department-hide').hasClass("hide")){
+			$('.department-hide').addClass("hide");
+		}
+		if(!$('.cost-hide').hasClass("hide")){
+			$('.cost-hide').addClass("hide");
+		}
+	})
+	$('.process-confirm-btn').click(function(){
+		$('.pop_bg').addClass("hide");
+		$('.process-hide').addClass("hide");
+	})
+	$('.process-reset-btn').click(function(){
+		$('.tags div').removeClass("active");
+		$('.tags1 div').removeClass("active");
+		$('.tags2 div').removeClass("active");
+		$('#process-all').addClass("active");
+	})
+	//status
+	$('#status').click(function (argument) {
+		$('.pop_bg').removeClass("hide");
+		$('.status-hide').removeClass("hide");
+		if(!$('.process-hide').hasClass("hide")){
+			$('.process-hide').addClass("hide");
+		}
+		if(!$('.department-hide').hasClass("hide")){
+			$('.department-hide').addClass("hide");
+		}
+		if(!$('.cost-hide').hasClass("hide")){
+			$('.cost-hide').addClass("hide");
+		}	
+	})
+	$('.status-confirm-btn').click(function(){
+		$('.pop_bg').addClass("hide");
+		$('.status-hide').addClass("hide");
+	})
+	$('.status-reset-btn').click(function(){
+		$('.tags div').removeClass("active");
+		$('.tags1 div').removeClass("active");
+		$('#status-all').addClass("active");
+	})
+	//department
+	$('#department').click(function (argument) {
+		$('.pop_bg').removeClass("hide");
+		$('.department-hide').removeClass("hide");
+		if(!$('.process-hide').hasClass("hide")){
+			$('.process-hide').addClass("hide");
+		}
+		if(!$('.status-hide').hasClass("hide")){
+			$('.status-hide').addClass("hide");
+		}
+		if(!$('.cost-hide').hasClass("hide")){
+			$('.cost-hide').addClass("hide");
+		}	
+	})
+	$('.department-confirm-btn').click(function(){
+		$('.pop_bg').addClass("hide");
+		$('.department-hide').addClass("hide");
+	})
+	$('.department-reset-btn').click(function(){
+		$('.tags div').removeClass("active");
+		$('.tags1 div').removeClass("active");
+		$('#department-all').addClass("active");
+	})
+	//cost
+	$('#cost').click(function (argument) {
+		$('.pop_bg').removeClass("hide");
+		$('.cost-hide').removeClass("hide");
+		if(!$('.process-hide').hasClass("hide")){
+			$('.process-hide').addClass("hide");
+		}
+		if(!$('.status-hide').hasClass("hide")){
+			$('.status-hide').addClass("hide");
+		}
+		if(!$('.department-hide').hasClass("hide")){
+			$('.department-hide').addClass("hide");
+		}		
+	})
+	$('.cost-confirm-btn').click(function(){
+		$('.pop_bg').addClass("hide");
+		$('.cost-hide').addClass("hide");
+	})
+	$('.cost-reset-btn').click(function(){
+		$('.tags div').removeClass("active");
+		$('.tags1 div').removeClass("active");
+		$('.tags2 div').removeClass("active");
+		$('#cost-all').addClass("active");
+	})
+</script>
+</html>
+
